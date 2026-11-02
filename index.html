@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThinkLane</title>
+<meta name="description" content="ThinkLane builds software that helps teams choose and run AI models.">
+<style>
+:root { --bg:#f7f6f2; --fg:#1d2321; --muted:#5b6560; --line:#dcd9cf; --accent:#1f6b5a; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg:#121615; --fg:#e7ebe8; --muted:#9aa5a0; --line:#2a312e; --accent:#5fc3a8; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.6 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+.wrap { max-width: 680px; margin: 0 auto; padding: 72px 20px 64px; display:flex; flex-direction:column; gap:36px; }
+.mark { font-weight:700; letter-spacing:.02em; font-size:15px; color:var(--accent); text-transform:uppercase; }
+h1 { margin:0; font-size: clamp(30px, 5vw, 40px); line-height:1.15; text-wrap: balance; }
+p { margin:0; }
+.lede { color:var(--muted); font-size:19px; max-width:60ch; }
+.status { border-left:3px solid var(--accent); padding:4px 0 4px 14px; display:flex; flex-direction:column; gap:6px; }
+dl { margin:0; display:grid; grid-template-columns: max-content 1fr; gap:6px 18px; }
+dt { color:var(--muted); }
+dd { margin:0; }
+a { color:var(--accent); }
+footer { border-top:1px solid var(--line); padding-top:18px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:14px">
+    <div class="mark">ThinkLane</div>
+    <h1>Software that helps teams choose and run AI models.</h1>
+  </header>
+
+  <section class="status">
+    <b>In development</b>
+    <p>ThinkLane is not yet publicly available. Its Python packages will be published on PyPI under the <code>thinklane</code> organization.</p>
+  </section>
+
+  <section>
+    <dl>
+      <dt>Organization</dt><dd>ThinkLane</dd>
+      <dt>Maintainer</dt><dd><a href="https://github.com/masteryoda007">masteryoda007</a></dd>
+      <dt>GitHub</dt><dd><a href="https://github.com/thinklane">github.com/thinklane</a></dd>
+    </dl>
+  </section>
+
+  <footer>© 2026 ThinkLane</footer>
+</div>
+</body>
+</html>
